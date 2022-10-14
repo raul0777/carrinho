@@ -35,7 +35,7 @@ import { Messaging } from './services/messaging';
 import { Persistency } from './services/persistency';
 import { Product } from './classes/product';
 import { FiftyPercentDiscount } from './classes/discount';
-import { EnterpriseCustomer } from './classes/interfaces/Customer';
+import { EnterpriseCustomer } from './classes/Customer';
 
 const fiftyPercentDiscount = new FiftyPercentDiscount();
 // const temPercentDiscount = new TemPercentDiscount();

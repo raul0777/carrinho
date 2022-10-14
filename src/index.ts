@@ -1,1 +1,1 @@
-import './srp/entities/shopping-cart';
+import './main';
