@@ -1,7 +1,13 @@
+/*
+sudo npm install -g jest
+npx jest --init
+####Comando####
+npx jest
+*/
 describe('TESTANDO ALGUMA COISA', () => {
   it('Should return one.(IT)', () => {
     const number = 1;
-    expect(number).not.toBe(1);
+    expect(number).toBe(1);
   });
 });
 
